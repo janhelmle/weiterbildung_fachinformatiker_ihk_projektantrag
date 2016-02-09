@@ -39,6 +39,6 @@ Folgende Anforderungen müssen erfüllt sein:
 -	Programmablauf ermitteln
 		
 	zu 2)
-		-	Klassendiagramm erstellen
+-	Klassendiagramm erstellen
 -	Definition Webservice
 -
