@@ -1,0 +1,44 @@
+1.	Projektbezeichnung
+	Entwickeln einer Serversoftware inklusive Testclient zur Reservierung von Hotelzimmern
+1.1	Kurzform der Aufgabenstellung
+Für die mobile-ad-media GmbH soll im Rahmen eines Gesamtprojekts ein Softwaresystem zur Reservierung von Hotelzimmern entwickelt werden. Das System besteht aus einem zentralen Proxyserver als Backend mit dem native Apps für iOS und Android sowie ein Webclient verbunden werden. Der Proxyserver ist weiterhin mit externen Datendiensten verbunden um Verfügbarkeiten und Preise zu erhalten, sowie Reservierungen abzugeben. 
+Im Rahmen dieses Teilprojekts soll die Serversoftware mit den Schnittstellen zu den mobilen Clients entwickelt werden. Ausserdem wird im Rahmen dieses Teilprojekts zum testen der Schnittstellen ein funktionaler Webclient entwickelt. 
+Die mobilen Apps, welche separat im Rahmen des Gesamtprojekts in unserem Hause entwickelt werden, ermöglichen eine rasche Hotelzimmerreservierung und stellen im wesentlichen die grafische Oberfläche zur Verfügung. Die Serversoftware übergibt den Apps relevante Daten zur Darstellung (Preise, Verfügbarkeiten etc.) und nimmt eine Reservierungsanfrage entgegen. Nachdem der Nutzer seinen Reservierungswunsch geäußert hat, wird eine entsprechende eMail an das betreffende Hotel versandt. Eine Hotelsuche findet nicht statt, das System wird individuell an einzelne Hotels angepasst.
+1.2	Ist-Analyse
+	Da das ganze System von Grund auf entwickelt werden soll, ist bisher noch keine Software vorhanden. Es besteht ein detailliert ausgearbeitetes grafisches Mock-Up der mobilen Clients zur Verfügung. Hier wird der Entwurf der komfortablen, intuiitiven und schon bestehenden grafischen Benutzerschnittstelle der Arbeit zugrundegelegt. Auch bestehen schon die externen Datendienste von denen wir im wesentlichen sich häufig ändernde Daten wie Preise und Verfügbarkeiten erhalten und auf dem Proxyserver puffern und verarbeiten.
+2.	Zielsetzung entwickeln / Soll-Konzept
+2.1	Was soll am Ende des Projektes erreicht sein?
+	Am Ende des Projekts soll die Schnittstelle zwischen Proxyserver und Clients entwickelt, präzise beschrieben und funktionsfähig sein. Der Proxyserver sollte grundlegend funktionsfähig sein. Zusätzlich soll ein funktionaler Webclient für Testzwecke verfügbar sein. Eine Zimmerreservierungsanfrage mit ausgehender eMail soll erfolgreich durchführbar sein. Eine Anbindung an externe Datendienste ist nicht Teil des Projekts und wir im Anschluß an das Projekt erarbeitet.  
+2.2	Welche Anforderungen müssen erfüllt sein?
+Folgende Anforderungen müssen erfüllt sein:
+-	Es soll eine vollständige Analyse des notwendigen Datenverkehrs zwischen Proxyserver und Clients durchgeführt werden. 
+-	Der Benutzer soll möglichst wenig Wartezeit auf sich nehmen; der Reservierungsvorgang soll flüssig durchführbar sein (“10-Sekunden-Reservierung”)
+-	Ein vollständiges API des Proxyservers für die mobilen Clients (Dienstkonsumenten) soll erarbeitet werden, da die Entwicklung der mobilen Apps parallel von Mitarbeitern durchgeführt werden soll
+-	Proxyserver und Clients kommunizieren mittels JSON über HTTP (REST)
+-	Die Serversoftware wird mittels PHP-Framework (Symfony) entwickelt
+-	Der Webclient wird mittels üblicher Webtechnologien entwickelt (HTML, CSS, JavaScript). Der Einsatz von Frameworks ist hier ebenfalls möglich. 
+-	Bei abgeschlossener Reservierung soll eine eMail mit den Reservierungsdaten an das Hotel geschickt werden
+2.3	Welche Einschränkungen müssen berücksichtigt werden ?
+	Das System soll in englischer Sprache entwickelt werden, die grafische Benutzeroberfläche in deutscher Sprache. Eine einheitliche und konsistente Begrifflichkeit ist wünschenswert. Der Softwareentwurf sollte möglichst einfach und leicht verständlich sein, ausserdem sollte das System sich leicht erweitern (skalierbar) lassen.   
+3.	Projektstrukturplan entwickeln
+3.1	Was ist zur Erfüllung der Zielsetzung erforderlich ?
+	Zur Erfüllung der Aufgabenstellung ist die genaue Analyse des grafischen Mock-Ups hinsichtlich der darauf folgenden Programmierung nötig (welche Daten müssen wann in welchem Format zur Verfügung stehen). Weiterhin wird ein handelsüblicher PC mit Windows 10 als Entwicklungsplattform eingesetzt. Als Entwicklungssoftware kommen open-source Softwareprodukte zum Einsatz. Eine Versionsverwaltung in Form von Git wird ausserdem eingesetzt. Weiterhin stehen PHP sowie MySQL zur Verfügung. Die Software wird zum testen und für den produktiven Einsatz auf einen managed-Server eines Rechenzentrums übertragen. (Weiterhin sollten Wörterbücher und DIN Normen für eine konsistente Terminologie zur Verfügung stehen).
+3.2	Hauptaufgaben auflisten
+	1)	Analyse
+	2)	Entwurf
+	3)	Implementierung
+	4)	Abnahme und Einführung
+	5)	Dokumentation
+3.3	Teilaufgaben auflisten
+	zu 1)	
+-	Mock-Up analysieren
+-	notwendige Kommunikation zwischen Client und Server ermitteln
+-	ermittlung von Use-Cases
+-	Beteiligte Entitäten ermitteln
+-	Beziehung der Entitäten ermitteln
+-	Programmablauf ermitteln
+		
+	zu 2)
+		-	Klassendiagramm erstellen
+-	Definition Webservice
+-
