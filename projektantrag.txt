@@ -10,7 +10,7 @@ Die mobilen Apps, welche separat im Rahmen des Gesamtprojekts in unserem Hause e
 2.1	Was soll am Ende des Projektes erreicht sein?
 	Am Ende des Projekts soll die Schnittstelle zwischen Proxyserver und Clients entwickelt, präzise beschrieben und funktionsfähig sein. Der Proxyserver sollte grundlegend funktionsfähig sein. Zusätzlich soll ein funktionaler Webclient für Testzwecke verfügbar sein. Eine Zimmerreservierungsanfrage mit ausgehender eMail soll erfolgreich durchführbar sein. Eine Anbindung an externe Datendienste ist nicht Teil des Projekts und wir im Anschluß an das Projekt erarbeitet.  
 2.2	Welche Anforderungen müssen erfüllt sein?
-Folgende Anforderungen müssen erfüllt sein:
+	Folgende Anforderungen müssen erfüllt sein:
 -	Es soll eine vollständige Analyse des notwendigen Datenverkehrs zwischen Proxyserver und Clients durchgeführt werden. 
 -	Der Benutzer soll möglichst wenig Wartezeit auf sich nehmen; der Reservierungsvorgang soll flüssig durchführbar sein (“10-Sekunden-Reservierung”)
 -	Ein vollständiges API des Proxyservers für die mobilen Clients (Dienstkonsumenten) soll erarbeitet werden, da die Entwicklung der mobilen Apps parallel von Mitarbeitern durchgeführt werden soll
