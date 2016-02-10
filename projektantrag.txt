@@ -40,4 +40,3 @@ Die mobilen Apps, welche separat im Rahmen des Gesamtprojekts in unserem Hause e
 	zu 2)
 -	Klassendiagramm erstellen
 -	Definition Webservice
--
