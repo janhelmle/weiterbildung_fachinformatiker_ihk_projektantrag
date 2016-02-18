@@ -31,18 +31,18 @@ Die mobilen Apps, welche separat im Rahmen des Gesamtprojekts in unserem Hause e
 	5)	Dokumentation
 3.3	Teilaufgaben auflisten
 	zu 1)	
--	Mock-Up analysieren
--	notwendige Kommunikation zwischen Client und Server ermitteln
--	Ermittlung von Use-Cases
--	Beteiligte Entitäten ermitteln
--	Beziehung der Entitäten ermitteln
--	Programmablauf ermitteln	
+-	Mock-Up analysieren (1h)
+-	notwendige Kommunikation zwischen Client und Server ermitteln (1h)
+-	Ermittlung von Use-Cases (2h)
+-	Beteiligte Entitäten ermitteln (1h)
+-	Beziehung der Entitäten ermitteln (1h)
+-	Programmablauf ermitteln (2h)	
 	zu 2)
--	Domänenmodell erstellen
--	Definition der Endpoints des Webservices
+-	Domänenmodell erstellen (2h)
+-	Definition der Endpoints des Webservices (4h)
         zu 3)
--       Implementierung / Realisierung
+-       Implementierung / Realisierung (40h)
         zu 4)
--       Tests durchführen, Debugging
+-       Tests durchführen, Debugging (2h)
         zu 5)
--       Erstellen der Dokumentation
+-       Erstellen der Dokumentation (14h)
