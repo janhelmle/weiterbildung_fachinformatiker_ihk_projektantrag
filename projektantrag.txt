@@ -1,13 +1,13 @@
-1.	Projektbezeichnung
+1.*	Projektbezeichnung
 	Entwickeln einer Serversoftware inklusive Testclient zur Reservierung von Hotelzimmern
-1.1	Kurzform der Aufgabenstellung
+1.1*	Kurzform der Aufgabenstellung
 	Für die mobile-ad-media GmbH soll im Rahmen eines Gesamtprojekts ein Softwaresystem zur Reservierung von Hotelzimmern entwickelt werden. Das System besteht aus einem zentralen Proxyserver als Backend mit dem native Apps für iOS und Android sowie ein Webclient verbunden werden. Der Proxyserver wird weiterhin mit externen Datendiensten verbunden um Verfügbarkeiten und Preise von Hotelzimmern zu erhalten, sowie Reservierungsdaten weiterzureichen. 
 Im Rahmen dieses Teilprojekts soll die Serversoftware mit den Schnittstellen zu den mobilen Clients entwickelt werden. Außerdem wird im Rahmen dieses Teilprojekts zum testen der Schnittstellen ein funktionaler Webclient entwickelt. 
 Die mobilen Apps, welche separat im Rahmen des Gesamtprojekts in unserem Hause entwickelt werden sollen, ermöglichen eine rasche Hotelzimmerreservierung und stellen im wesentlichen die grafische Oberfläche zur Verfügung. Die Serversoftware übergibt den Apps relevante Daten der Darstellung (Preise, Verfügbarkeiten etc.) und nimmt abschliessend eine Reservierungsanfrage entgegen. Nachdem der Nutzer abschliessend seinen Reservierungswunsch geäußert hat, wird eine entsprechende E-Mail an das betreffende Hotel versendet. Eine Hotelsuche findet nicht statt, das System wird individuell an einzelne Hotels angepasst.
 1.2	Ist-Analyse
 	Da das ganze System von Grund auf neu entwickelt werden soll, ist bisher keinerlei Software vorhanden. Es steht ein detailliert ausgearbeitetes grafisches Mock-Up der mobilen Clients zur Verfügung. Hier wird der Entwurf der komfortablen und intuitiven grafischen Benutzerschnittstelle der Arbeit zugrundegelegt. Auch bestehen schon die externen Datendienste von denen wir im wesentlichen sich häufig ändernde Daten wie Preise und Verfügbarkeiten erhalten und auf dem Proxyserver puffern, verarbeiten und an die Clients ausliefern.
 2.	Zielsetzung entwickeln / Soll-Konzept
-2.1	Was soll am Ende des Projektes erreicht sein?
+2.1*	Was soll am Ende des Projektes erreicht sein?
 	Am Ende des Projekts soll die Schnittstelle zwischen Proxyserver und Clients als Webservice entwickelt, präzise beschrieben und funktionsfähig sein. Der Proxyserver sollte grundlegend funktionsfähig sein. Zusätzlich soll ein funktionaler Webclient für Testzwecke verfügbar sein. Eine Zimmerreservierungsanfrage mit ausgehender E-Mail soll erfolgreich durchführbar sein. Eine Anbindung an externe Datendienste ist nicht Teil des Teilprojekts und wird im Anschluss an das Teilprojekt entwickelt.  
 2.2	Welche Anforderungen müssen erfüllt sein?
 	Folgende Anforderungen müssen erfüllt sein:
@@ -23,15 +23,15 @@ Die mobilen Apps, welche separat im Rahmen des Gesamtprojekts in unserem Hause e
 3.	Projektstrukturplan entwickeln
 3.1	Was ist zur Erfüllung der Zielsetzung erforderlich ?
 	Zur Erfüllung der Aufgabenstellung ist die genaue Analyse des grafischen Mock-Ups hinsichtlich der darauf folgenden Programmierung nötig (welche Daten müssen wann in welchem Format zur Verfügung stehen). Weiterhin wird ein handelsüblicher PC mit Windows 10 als Entwicklungsplattform eingesetzt. Als Entwicklungssoftware kommen open-source Softwareprodukte zum Einsatz. Eine Versionsverwaltung in Form von Git wird ausserdem eingesetzt. Weiterhin stehen PHP sowie MySQL zur Verfügung. Die Software wird zum testen und für den produktiven Einsatz auf einen managed-Server eines Rechenzentrums übertragen. 
-3.2	Hauptaufgaben auflisten
+3.2*	Hauptaufgaben auflisten
 	1)	Analyse
 	2)	Entwurf
 	3)	Realisierung
 	4)	Test, Abnahme und Einführung
 	5)	Dokumentation
-3.3	Teilaufgaben auflisten
+3.3*	Teilaufgaben (mit Zeitrahmen) auflisten
 	zu 1)	
--	Mock-Up analysieren (1h)
+-	grafisches Mock-Up analysieren (1h)
 -	notwendige Kommunikation zwischen Client und Server ermitteln (2h)
 -	Ermittlung von Use-Cases (2h)
 -	Beteiligte Entitäten ermitteln (2h)

@@ -13,19 +13,24 @@ Die mobilen Apps, welche separat im Rahmen des Gesamtprojekts in unserem Hause e
     4)	Test, Abnahme und Einführung
     5)	Dokumentation
 4.2 Teilaufgaben (mit Zeitrahmen) auflisten
+
     zu 1)	
--   Mock-Up analysieren (1h)
+-   grafisches Mock-Up analysieren (1h)
 -   notwendige Kommunikation zwischen Client und Server ermitteln (2h)
 -   Ermittlung von Use-Cases (2h)
 -   Beteiligte Entitäten ermitteln (2h)
 -   Beziehung der Entitäten ermitteln (2h)
--   Programmablauf ermitteln (2h)	
+-   Programmablauf ermitteln (2h)
+	
     zu 2)
 -   Domänenmodell erstellen (2h)
 -   Definition der Endpoints des Webservices (4h)
+
     zu 3)
 -   Implementierung / Realisierung (35h)
+
     zu 4)
 -   Tests durchführen, Debugging (2h)
+
     zu 5)
 -   Erstellen der Dokumentation (16h)
