@@ -15,7 +15,7 @@ Die mobilen Apps, welche separat im Rahmen des Gesamtprojekts in unserem Hause e
 -	Der Benutzer soll möglichst wenig Wartezeit auf sich nehmen; der Reservierungsvorgang soll flüssig durchführbar sein (“10-Sekunden-Reservierung”)
 -	Ein vollständiges API des Proxyservers für die mobilen Clients (Dienstkonsumenten) soll erarbeitet werden, da die Entwicklung der mobilen Apps teilweise parallel von Mitarbeitern durchgeführt werden soll
 -	Proxyserver und Clients kommunizieren mittels JSON über HTTP (REST)
--	Die Serversoftware wird mittels PHP-Framework (Symfony) objektorientiert entwickelt
+-	Die Serversoftware wird mittels PHP-Framework (Symfony) objektorientiert nach dem MVC Entwurfsmuster (model view controller - deutsch: modell, praesentation, steuerung) entwickelt
 -	Der Webclient wird mittels üblicher Webtechnologien entwickelt (HTML, CSS, JavaScript). Der Einsatz von Frameworks ist hier ebenfalls möglich. 
 -	Bei abgeschlossener Reservierung soll eine E-Mail mit den Reservierungsdaten an das Hotel geschickt werden
 2.3	Welche Einschränkungen müssen berücksichtigt werden ?
@@ -47,11 +47,15 @@ Die mobilen Apps, welche separat im Rahmen des Gesamtprojekts in unserem Hause e
 -	Anwendungsfalldiagramm erstellen (2h)
 -	Klassendiagramm erstellen (2h)
 -	Sequenzdiagramm erstellen (1h)
--	Entwurf der JSON Objektstruktur für die Übertragung
+-	Entwurf der JSON Objektstruktur für den Datenaustausch
 -	Definition der Endpoints des Webservices (4h)
 
 	zu 4)	-   Realisierungsphase
--	erstellen der Software
+-	Aufbau Repositorystruktur
+-	Installation Symfony mit eventuell benoetigten Zusatzmodulen
+-	Implementierung der Modelle (model)
+-	Implementierung der Steuerung (controller)
+-	Implementierung der Praesentation (view)
 
 	zu 5)	-   Testphase
 -	testen der einzelnen Softwaremodule

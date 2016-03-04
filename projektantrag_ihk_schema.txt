@@ -28,11 +28,15 @@ Die mobilen Apps, welche separat im Rahmen des Gesamtprojekts in unserem Hause e
 -	Anwendungsfalldiagramm erstellen (2h)
 -	Klassendiagramm erstellen (2h)
 -	Sequenzdiagramm erstellen (1h)
--	Entwurf der JSON Objektstruktur für die Übertragung
+-	Entwurf der JSON Objektstruktur für den Datenaustausch
 -	Definition der Endpoints des Webservices (4h)
 
 	zu 4)	-   Realisierungsphase
--	erstellen der Software
+-	Aufbau Repositorystruktur
+-	Installation Symfony mit eventuell benoetigten Zusatzmodulen
+-	Implementierung der Modelle (model)
+-	Implementierung der Steuerung (controller)
+-	Implementierung der Praesentation (view)
 
 	zu 5)	-   Testphase
 -	testen der einzelnen Softwaremodule
