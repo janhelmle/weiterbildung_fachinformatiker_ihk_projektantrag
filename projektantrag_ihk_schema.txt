@@ -29,7 +29,7 @@ Die mobilen Apps, welche separat im Rahmen des Gesamtprojekts in unserem Hause e
 -	Klassendiagramm erstellen (2h)
 -	Sequenzdiagramm erstellen (1h)
 -	Entwurf der JSON Objektstruktur für den Datenaustausch
--	Definition der Endpoints des Webservices (4h)
+-	Definition der Endpoints des Webdienstes (4h)
 
 	zu 4)	-   Realisierungsphase
 -	Aufbau Repositorystruktur
