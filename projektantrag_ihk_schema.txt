@@ -10,34 +10,33 @@ Die mobilen Apps, welche separat im Rahmen des Gesamtprojekts in unserem Hause e
     Am Ende des Projekts soll die Schnittstelle zwischen Proxyserver und Clients als Webservice entwickelt, präzise beschrieben und funktionsfähig sein. Der Proxyserver sollte grundlegend funktionsfähig sein. Zusätzlich soll ein funktionaler Webclient für Testzwecke verfügbar sein. Eine Zimmerreservierungsanfrage mit ausgehender E-Mail soll erfolgreich durchführbar sein. Eine Anbindung an externe Datendienste ist nicht Bestandteil des Teilprojekts und wird im Anschluss an das Teilprojekt entwickelt.
 
 4.1 Hauptaufgaben auflisten
-    1)	Planungsphase
-    2)	Analysephase
-    3)	Entwurfsphase
-    4)	Realisierungsphase
-    5)	Testphase
-    6)	Übergabephase
-    7)	Dokumentation
+    1)	Planungsphase (3h)
+    2)	Analysephase (8h)
+    3)	Entwurfsphase (9h)
+    4)	Durchfuehrungsphase (35h)
+    5)	Testphase (3h)
+    6)	Übergabephase (2h)
+    7)	Dokumentation (10h)
 
 4.2 Teilaufgaben (mit Zeitrahmen) auflisten
 
     zu 1)	-   Planungsphase
--   Projektstrukturplan erstellen
 -   Termin und Meilensteinplan erstellen
 
     zu 2)	-   Analysephase
--   gegebenes grafisches Mock-Up analysieren (1h)
--   Beteiligte Entitäten ermitteln (2h)
--   Beziehung der Entitäten ermitteln (2h)
--   notwendige Kommunikation zwischen Clients (Apps) und Server (Proxy) ermitteln (2h)
+-   gegebenes grafisches Mock-Up analysieren
+-   Beteiligte Entitäten ermitteln
+-   Beziehung der Entitäten ermitteln
+-   notwendige Kommunikation zwischen Clients (Apps) und Server (Proxy) ermitteln
 
     zu 3)	-   Entwurfsphase
--   Anwendungsfalldiagramm erstellen (2h)
--   Klassendiagramm erstellen (2h)
--   Sequenzdiagramm erstellen (1h)
+-   Anwendungsfalldiagramm erstellen
+-   Klassendiagramm erstellen
+-   Sequenzdiagramm erstellen
 -   Entwurf der JSON Objektstruktur für den Datenaustausch
--   Definition der Endpoints der Webdienste (4h)
+-   Definition der Endpoints der Webdienste
 
-    zu 4)	-   Realisierungsphase
+    zu 4)	-   Durchfuehrungsphase
 -   Aufbau Repositorystruktur
 -   Installation Symfony mit eventuell benoetigten Zusatzmodulen
 -   Implementierung der Modelle (model)
@@ -51,4 +50,4 @@ Die mobilen Apps, welche separat im Rahmen des Gesamtprojekts in unserem Hause e
 -   Uebergabe der Software und Inbetriebnahme
 
     zu 7)	-   Dokumentation
--   Erstellen der Dokumentation (10h)
+-   Erstellen der Dokumentation
