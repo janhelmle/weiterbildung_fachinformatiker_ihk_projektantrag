@@ -21,33 +21,33 @@ Die mobilen Apps, welche separat im Rahmen des Gesamtprojekts in unserem Hause e
 4.2 Teilaufgaben (mit Zeitrahmen) auflisten
 
     zu 1)	-   Planungsphase
--   Termin und Meilensteinplan erstellen
+-   Termin und Meilensteinplan erstellen (3h)
 
     zu 2)	-   Analysephase
--   gegebenes grafisches Mock-Up analysieren
--   Beteiligte Entitäten ermitteln
--   Beziehung der Entitäten ermitteln
--   notwendige Kommunikation zwischen Clients (Apps) und Server (Proxy) ermitteln
+-   Gegebenes grafisches Mock-Up analysieren (2h)
+-   Beteiligte Entitäten ermitteln (2h)
+-   Beziehung der Entitäten ermitteln (2h)
+-   notwendige Kommunikation zwischen Clients (Apps) und Server (Proxy) ermitteln (2h)
 
     zu 3)	-   Entwurfsphase
--   Anwendungsfalldiagramm erstellen
--   Klassendiagramm erstellen
--   Sequenzdiagramm erstellen
--   Entwurf der JSON Objektstruktur für den Datenaustausch
--   Definition der Endpoints der Webdienste
+-   Anwendungsfalldiagramm erstellen (2h)
+-   Klassendiagramm erstellen (2h)
+-   Sequenzdiagramm erstellen (2h)
+-   Entwurf der JSON Objektstruktur für den Datenaustausch (2h)
+-   Definition der Endpoints der Webdienste (1h)
 
     zu 4)	-   Durchfuehrungsphase
--   Aufbau Repositorystruktur
--   Installation Symfony mit eventuell benoetigten Zusatzmodulen
--   Implementierung der Modelle (model)
--   Implementierung der Steuerung (controller)
--   Implementierung der Praesentation (view)
+-   Aufbau Repositorystruktur (2h)
+-   Installation Symfony mit eventuell benoetigten Zusatzmodulen (1h)
+-   Implementierung der Modelle (model) (10h)
+-   Implementierung der Steuerung (controller) (10h)
+-   Implementierung der Praesentation (view) (12h)
 
     zu 5)	-   Testphase
--   testen der einzelnen Softwaremodule
+-   Testen der einzelnen Softwaremodule (3h)
 
     zu 6)	-   Uebergabephase
--   Uebergabe der Software und Inbetriebnahme
+-   Uebergabe der Software und Inbetriebnahme (2h)
 
     zu 7)	-   Dokumentation
--   Erstellen der Dokumentation
+-   Erstellen der Dokumentation (10h)
