@@ -21,7 +21,7 @@ Die mobilen Apps, welche separat im Rahmen des Gesamtprojekts in unserem Hause e
 -   Termin und Meilensteinplan erstellen
 
     zu 2)	-   Analysephase
--   grafisches Mock-Up analysieren (1h)
+-   gegebenes grafisches Mock-Up analysieren (1h)
 -   Beteiligte Entitäten ermitteln (2h)
 -   Beziehung der Entitäten ermitteln (2h)
 -   notwendige Kommunikation zwischen Clients (Apps) und Server (Proxy) ermitteln (2h)
