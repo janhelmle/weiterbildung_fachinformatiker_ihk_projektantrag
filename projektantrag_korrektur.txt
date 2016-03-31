@@ -2,9 +2,9 @@
     Entwickeln einer Serversoftware zur Reservierung von Hotelzimmern
 
 2.  Kurzform der Aufgabenstellung
-    Fuer die mobile-ad-media GmbH soll im Rahmen eines Gesamtprojekts ein Softwaresystem zur Reservierung von Hotelzimmern entwickelt werden. Das System besteht aus einem zentralen Proxyserver als Backend, mit welchem die native Apps fuer iOS und Android verbunden werden. Der Proxyserver wird weiterhin mit externen Datendiensten verbunden um Verfuegbarkeiten und Preise von Hotelzimmern zu erhalten sowie Reservierungsdaten weiterzureichen. 
-Im Rahmen dieses Teilprojekts soll die Serversoftware mit den Schnittstellen zu den mobilen Clients entwickelt werden. Grundlage der Arbeit ist ein detailliert ausgearbeitetes grafisches Mockup, in welchem die einzelnen Screens der Apps dargestellt werden und aus welchem die noetige Kommunikation zwischen App und Proxy ermittelt werden soll (welche Information wird wann in welchem Format benoetigt).
-Die mobilen Apps, welche separat im Rahmen des Gesamtprojekts in unserem Hause entwickelt werden sollen, ermoeglichen eine rasche Hotelzimmerreservierung und stellen im wesentlichen die grafische Oberflaeche zur Verfuegung. Die Serversoftware Uebergibt den Apps relevante Daten der Darstellung (Preise, Verfuegbarkeiten etc.) und nimmt anschliessend eine Reservierungsanfrage entgegen. Nachdem der Nutzer abschliessend seinen Reservierungswunsch geaeussert hat, wird eine E-Mail mit allen relevanten Daten an das entsprechende Hotel versendet. Eine Hotelsuche findet nicht statt, das System wird individuell an einzelne Hotels angepasst. 
+    Fuer die mobile-ad-media GmbH soll im Rahmen eines Gesamtprojekts ein Softwaresystem zur Reservierung von Hotelzimmern entwickelt werden. Das System besteht aus einem zentralen Proxyserver als Backend, mit welchem native Apps fuer iOS und Android verbunden werden. Der Proxyserver wird weiterhin mit externen Datendiensten verbunden um Verfuegbarkeiten und Preise von Hotelzimmern zu erhalten sowie Reservierungsdaten weiterzureichen. 
+Im Rahmen dieses Teilprojekts soll die Serversoftware mit den Schnittstellen zum mobilen Client entwickelt werden. Grundlage der Arbeit ist ein detailliert ausgearbeiteter grafischer Entwurf, in welchem die einzelnen Screens der Apps dargestellt werden und aus welchem die noetige Kommunikation zwischen App und Proxy ermittelt werden soll (welche Information wird wann in welchem Format benoetigt).
+Die mobile App, welche separat im Rahmen des Gesamtprojekts in unserem Hause entwickelt werden soll, ermoeglicht eine Hotelzimmerreservierung und stellt die grafische Oberflaeche zur Verfuegung. Die Serversoftware uebergibt der App relevante Daten zur Darstellung (Preise, Verfuegbarkeiten etc.) und nimmt anschliessend eine Reservierungsanfrage entgegen. Nachdem der Nutzer abschliessend seinen Reservierungswunsch bestaetigt hat, wird eine E-Mail mit allen relevanten Daten an das entsprechende Hotel versendet. Eine Hotelsuche findet nicht statt, das System wird individuell an einzelne Hotels angepasst. 
 Die zu erarbeitende Software soll mittels Symfony Framework in PHP entwickelt werden, als Datenbankmanagementsystem soll MySQL zum Einsatz kommen. 
 
 3.  Zielsetzung entwickeln - Was soll am Ende des Projektes erreicht werden?
@@ -25,7 +25,7 @@ Die zu erarbeitende Software soll mittels Symfony Framework in PHP entwickelt we
 -   Termin und Meilensteinplan erstellen (3h)
 
     zu 2)	-   Analysephase
--   Gegebenes grafisches Mock-Up analysieren (2h)
+-   Gegebenen grafischen Entwurf analysieren (2h)
 -   Beteiligte Entitaeten ermitteln (2h)
 -   Beziehung der Entitaeten ermitteln (2h)
 -   notwendige Kommunikation zwischen Clients (Apps) und Server (Proxy) ermitteln (2h)
