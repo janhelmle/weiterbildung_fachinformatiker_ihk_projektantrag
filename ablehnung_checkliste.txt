@@ -1,0 +1,12 @@
+bitte �berpr�fen Sie Ihre Projektphasen. Es fehlen die Ressourcen und Kostenplanung. Wozu ein Mockup analysieren, wenn es haupts�chlich um Webservices geht. Ggf. die Testseite in den 70 h abgrenzen, da der Umfang schon ganz sch�n hoch f�r diesen Zeitrahmen ist. Was ist mit der Qualit�tssicherung? nur 3h Test? und wie planen Sie das vorab? Welche Kriterien habe Sie an die Qualit�t und wie stellen Sie sicher, das es am Ende so passt.
+
+1)  Ueberpruefung Projektphasen
+2)  fehlende Ressourcen
+3)  fehlende Kostenplanung
+4)  wozu Mockup analysieren wenn es um Webservices geht
+5)  Testseite abgrenzen
+6)  Qualitaetssicherung
+7)  nur 3h Test
+8)  wie planen sie das vorab
+9)  welche Kriterien haben Sie an die Qualitaet
+10) wie stellen Sie sicher, das es am Ende so passt
