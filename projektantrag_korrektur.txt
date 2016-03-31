@@ -1,20 +1,20 @@
 1.  Projektbezeichnung
-    Entwickeln einer Serversoftware inklusive Testclient zur Reservierung von Hotelzimmern
+    Entwickeln einer Serversoftware zur Reservierung von Hotelzimmern
 
 2.  Kurzform der Aufgabenstellung
-    Fuer die mobile-ad-media GmbH soll im Rahmen eines Gesamtprojekts ein Softwaresystem zur Reservierung von Hotelzimmern entwickelt werden. Das System besteht aus einem zentralen Proxyserver als Backend mit dem native Apps fuer iOS und Android sowie ein Webclient verbunden werden. Der Proxyserver wird weiterhin mit externen Datendiensten verbunden um Verfuegbarkeiten und Preise von Hotelzimmern zu erhalten, sowie Reservierungsdaten weiterzureichen. 
-Im Rahmen dieses Teilprojekts soll die Serversoftware mit den Schnittstellen zu den mobilen Clients entwickelt werden. Ausserdem wird im Rahmen dieses Teilprojekts zum testen der Schnittstellen ein funktionaler Webclient entwickelt. 
+    Fuer die mobile-ad-media GmbH soll im Rahmen eines Gesamtprojekts ein Softwaresystem zur Reservierung von Hotelzimmern entwickelt werden. Das System besteht aus einem zentralen Proxyserver als Backend, mit welchem die native Apps fuer iOS und Android verbunden werden. Der Proxyserver wird weiterhin mit externen Datendiensten verbunden um Verfuegbarkeiten und Preise von Hotelzimmern zu erhalten, sowie Reservierungsdaten weiterzureichen. 
+Im Rahmen dieses Teilprojekts soll die Serversoftware mit den Schnittstellen zu den mobilen Clients entwickelt werden. Grundlage der Arbeit ist ein detailiert ausgearbeitetes grafisches Mockup, in welchem die einzelnen Screens der Apps dargestellt werden und aus welchem die noetige Kommunikation zwischen App und Proxy ermittelt werden soll (welche Information wird wann in welchem Format benoetigt).
 Die mobilen Apps, welche separat im Rahmen des Gesamtprojekts in unserem Hause entwickelt werden sollen, ermoeglichen eine rasche Hotelzimmerreservierung und stellen im wesentlichen die grafische Oberflaeche zur Verfuegung. Die Serversoftware Uebergibt den Apps relevante Daten der Darstellung (Preise, Verfuegbarkeiten etc.) und nimmt anschliessend eine Reservierungsanfrage entgegen. Nachdem der Nutzer abschliessend seinen Reservierungswunsch geaeussert hat, wird eine E-Mail mit allen relevanten Daten an das entsprechende Hotel versendet. Eine Hotelsuche findet nicht statt, das System wird individuell an einzelne Hotels angepasst.
 
 3.  Zielsetzung entwickeln - Was soll am Ende des Projektes erreicht werden?
-    Am Ende des Projekts soll die Schnittstelle zwischen Proxyserver und Clients als Webservice entwickelt, praezise beschrieben und funktionsfaehig sein. Der Proxyserver sollte grundlegend funktionsfaehig sein. Zusaetzlich soll ein funktionaler Webclient fuer Testzwecke verfuegbar sein. Eine Zimmerreservierungsanfrage mit ausgehender E-Mail soll erfolgreich durchfuehrbar sein. Eine Anbindung an externe Datendienste ist nicht Bestandteil des Teilprojekts und wird im Anschluss im Rahmen des Gesamtprojekts entwickelt.
+    Am Ende des Projekts sollen die Schnittstellen zwischen Proxyserver und Clients als Webservice entwickelt, praezise beschrieben und funktionsfaehig sein. Der Proxyserver sollte grundlegend funktionsfaehig sein. Eine Zimmerreservierungsanfrage mit ausgehender E-Mail soll erfolgreich durchfuehrbar sein. Eine Anbindung an externe Datendienste ist nicht Bestandteil des Teilprojekts und wird im Anschluss im Rahmen des Gesamtprojekts entwickelt.
 
 4.1 Hauptaufgaben auflisten
     1)	Planungsphase (3h)
     2)	Analysephase (8h)
     3)	Entwurfsphase (9h)
     4)	Durchfuehrungsphase (35h)
-    5)	Testphase (3h)
+    5)	Qualitaetsmanagement (3h)
     6)	Uebergabephase (2h)
     7)	Dokumentation (10h)
 
@@ -43,8 +43,8 @@ Die mobilen Apps, welche separat im Rahmen des Gesamtprojekts in unserem Hause e
 -   Implementierung der Steuerung (controller) (10h)
 -   Implementierung der Praesentation (view) (12h)
 
-    zu 5)	-   Testphase
--   Testen der einzelnen Softwaremodule (3h)
+    zu 5)	-   Qualitaetsmanagement
+-   Erstellen von Modultests (3h)
 
     zu 6)	-   Uebergabephase
 -   Uebergabe der Software und Inbetriebnahme (2h)
