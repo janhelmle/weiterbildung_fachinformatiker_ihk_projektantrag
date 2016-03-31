@@ -53,6 +53,8 @@ Die zu erarbeitende Software soll mittels Symfony Framework in PHP entwickelt we
     zu 7)	-   Dokumentation
 -   Erstellen der Dokumentation (10h)
 
+---------------------------------------------------------------------
+
 -----------
 - Anhang: -
 -----------
@@ -72,6 +74,17 @@ Software:
 
 Vorläufige Kosten-Nutzen-Analyse
 
+Ich vergleiche die Arbeitskosten eines Praktikanten
+mit denen eines Festangestellten (jeweils 70 Stunden):
 
+Angestellter:                   Praktikant:
+30 Euro/Stunde                  10 Euro/Stunde
+=                               =
+2100 Euro                       700 Euro
+
+Kostenvorteil für das Unternehmen:
+1400 Euro
+
+-----
 
 
