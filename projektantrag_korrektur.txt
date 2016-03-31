@@ -12,10 +12,10 @@ Die zu erarbeitende Software soll mittels Symfony Framework in PHP entwickelt we
 
 4.1 Hauptaufgaben auflisten
     1)	Planungsphase (3h)
-    2)	Analysephase (8h)
+    2)	Analysephase (4h)
     3)	Entwurfsphase (9h)
-    4)	Durchfuehrungsphase (35h)
-    5)	Qualitaetssicherung (3h)
+    4)	Durchfuehrungsphase (29h)
+    5)	Qualitaetsmanagement (13h)
     6)	Uebergabephase (2h)
     7)	Dokumentation (10h)
 
@@ -44,11 +44,34 @@ Die zu erarbeitende Software soll mittels Symfony Framework in PHP entwickelt we
 -   Implementierung der Steuerung (controller) (10h)
 -   Implementierung der Praesentation (view) (12h)
 
-    zu 5)	-   Qualitaetssicherung
--   Erstellen von Modultests (3h)
+    zu 5)	-   Qualitaetsmanagement
+-   Erstellen von Modultests (13h)
 
     zu 6)	-   Uebergabephase
 -   Uebergabe der Software und Inbetriebnahme (2h)
 
     zu 7)	-   Dokumentation
 -   Erstellen der Dokumentation (10h)
+
+-----------
+- Anhang: -
+-----------
+
+Verwendete Ressourcen:
+
+Hardware:
+-   Bueroarbeitsplatz mit handelsueblichem PC
+
+Software:
+-   Windows 10 Professional 64bit - Betriebssystem
+-   Netbeans 8.1 - Entwicklungsumgebung
+-   Git 2.6 - Quellcodeverwaltung
+-   Symfony 3 - PHP Framework (MVC)
+
+-----
+
+Vorläufige Kosten-Nutzen-Analyse
+
+
+
+
