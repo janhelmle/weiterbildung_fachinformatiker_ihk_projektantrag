@@ -42,10 +42,13 @@ Die zu erarbeitende Software soll mittels Symfony Framework in PHP entwickelt we
 -   Installation Symfony mit eventuell benoetigten Zusatzmodulen (1h)
 -   Implementierung der Modelle (model) (10h)
 -   Implementierung der Steuerung (controller) (10h)
--   Implementierung der Praesentation (view) (12h)
+-   Praesentation vorbereiten (z.B. Postman; Ablaufplan) (?h)
 
     zu 5)	-   Qualitaetsmanagement
 -   Erstellen von Modultests (13h)
+-   Daten (Definitionsbereich / Grenzen, Datentypen, Struktur)
+-   Reaktionszeit und Skalierbarkeit (?h)
+-   Codereview (?h)
 
     zu 6)	-   Uebergabephase
 -   Uebergabe der Software und Inbetriebnahme (2h)
