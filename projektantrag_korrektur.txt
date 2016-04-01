@@ -43,7 +43,7 @@ Die zu erarbeitende Software soll mittels Symfony Framework in PHP entwickelt we
 -   Implementierung der Modelle (model) (10h)
 -   Implementierung der Steuerung (controller) (10h)
 
-    zu 5)	-   Qualitaetsmanagements
+    zu 5)	-   Qualitaetsmanagement
 -   Erstellen von Modultests (z.B. Postman) (13h)
 -   Daten (Definitionsbereich / Grenzen, Datentypen, Struktur)
 -   Reaktionszeit und Skalierbarkeit (?h)
