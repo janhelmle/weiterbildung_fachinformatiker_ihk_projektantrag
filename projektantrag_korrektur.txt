@@ -2,7 +2,7 @@
     Entwickeln einer Serversoftware zur Reservierung von Hotelzimmern
 
 2.  Kurzform der Aufgabenstellung
-    Fuer die mobile-ad-media GmbH soll im Rahmen eines Gesamtprojekts ein Softwaresystem zur Reservierung von Hotelzimmern entwickelt werden. Das System besteht aus einem zentralen Proxyserver als Backend, mit welchem native Apps fuer iOS und Android verbunden werden. Der Proxyserver wird weiterhin mit externen Datendiensten verbunden um Verfuegbarkeiten und Preise von Hotelzimmern zu erhalten sowie Reservierungsdaten weiterzureichen. 
+    Fuer die mobile-ad-media GmbH soll im Rahmen eines Gesamtprojekts ein Softwaresystem zur Reservierung von Hotelzimmern entwickelt werden. Das System besteht aus einem zentralen Proxyserver als Backend, mit welchem sich native Apps fuer iOS und Android verbinden. Der Proxyserver wird weiterhin mit externen Datendiensten verbunden um Verfuegbarkeiten und Preise von Hotelzimmern zu erhalten sowie Reservierungsdaten weiterzureichen. 
 Im Rahmen dieses Teilprojekts soll die Serversoftware mit den Schnittstellen zum mobilen Client entwickelt werden. Grundlage der Arbeit ist ein detailliert ausgearbeiteter grafischer Entwurf, in welchem die einzelnen Screens der Apps dargestellt werden und aus welchem die noetige Kommunikation zwischen App und Proxy ermittelt werden soll (welche Information wird wann in welchem Format benoetigt).
 Die mobile App, welche separat im Rahmen des Gesamtprojekts in unserem Hause entwickelt werden soll, ermoeglicht eine Hotelzimmerreservierung und stellt die grafische Oberflaeche zur Verfuegung. Die Serversoftware uebergibt der App relevante Daten zur Darstellung (Preise, Verfuegbarkeiten etc.) und nimmt anschliessend eine Reservierungsanfrage entgegen. Nachdem der Nutzer abschliessend seinen Reservierungswunsch bestaetigt hat, wird eine E-Mail mit allen relevanten Daten an das entsprechende Hotel versendet. Eine Hotelsuche findet nicht statt, das System wird individuell an einzelne Hotels angepasst. 
 Die zu erarbeitende Software soll mittels Symfony Framework in PHP entwickelt werden, als Datenbankmanagementsystem soll MySQL zum Einsatz kommen. 
@@ -47,10 +47,13 @@ Die zu erarbeitende Software soll mittels Symfony Framework in PHP entwickelt we
 -   Erstellen von Modultests (z.B. Postman) (13h)
 -   Daten (Definitionsbereich / Grenzen, Datentypen, Struktur)
 -   Reaktionszeit und Skalierbarkeit (?h)
+#TODO: Zeit schaetzen!
 -   Codereview (?h)
+#TODO: Zeit schaetzen!
 
     zu 6)	-   Uebergabephase
 -   Praesentation vorbereiten (z.B. Postman; Ablaufplan) (?h)
+#TODO: Zeit schaetzen!
 -   Uebergabe der Software und Inbetriebnahme (2h)
 
     zu 7)	-   Dokumentation
@@ -84,6 +87,9 @@ Angestellter:                   Praktikant:
 30 Euro/Stunde                  10 Euro/Stunde
 =                               =
 2100 Euro                       700 Euro
+
+#TODO: Wert für Angestellten korrigieren? Eventuell mit anderen Vergleichen!
+#TODO: Betreuer (Codereview etc.) in die Rechnung mit einfliessen lassen!
 
 Kostenvorteil für das Unternehmen:
 1400 Euro
