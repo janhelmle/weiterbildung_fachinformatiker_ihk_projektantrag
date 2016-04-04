@@ -78,10 +78,10 @@ Vorläufige Kosten-Nutzen-Analyse
 Ich vergleiche die Arbeitskosten eines Praktikanten
 mit denen eines Festangestellten (jeweils 70 Stunden):
 
-Angestellter:                   Praktikant:
-50 Euro/Stunde                  8 Euro/Stunde
-=                               =
-3500 Euro                       560 Euro
+Angestellter:			Praktikant:
+50 Euro/Stunde			8 Euro/Stunde
+=				=
+3500 Euro			560 Euro
 
 #TODO: Betreuer (Codereview etc.) in die Rechnung mit einfliessen lassen!
 
