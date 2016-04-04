@@ -89,13 +89,13 @@ mit denen eines Festangestellten (jeweils 70 Stunden):
 Angestellter:                   Praktikant:
 50 Euro/Stunde                  8 Euro/Stunde
 =                               =
-2100 Euro                       700 Euro
+3500 Euro                       560 Euro
 
 #TODO: Wert für Angestellten korrigieren? Eventuell mit anderen Vergleichen!
 #TODO: Betreuer (Codereview etc.) in die Rechnung mit einfliessen lassen!
 
 Kostenvorteil für das Unternehmen:
-1400 Euro
+2940 Euro
 
 -----
 
