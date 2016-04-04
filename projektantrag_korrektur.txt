@@ -11,17 +11,16 @@ Die zu erarbeitende Software wird mittels Symfony Framework in PHP entwickelt, a
     Am Ende des Projekts sollen die Schnittstellen zwischen Proxyserver und Clients als Webservice (REST) entwickelt, praezise beschrieben und funktionsfaehig sein. Der Proxyserver sollte grundlegend funktionsfaehig sein. Eine Zimmerreservierungsanfrage mit ausgehender E-Mail soll erfolgreich durchfuehrbar sein. Eine Anbindung an externe Datendienste ist nicht Bestandteil des Teilprojekts und wird im Anschluss im Rahmen des Gesamtprojekts entwickelt.
 
 4.1 Hauptaufgaben auflisten
-    1)	Planungsphase (3h)
+    1)	Initialisierung (3h)
     2)	Analysephase (4h)
     3)	Entwurfsphase (9h)
-    4)  Durchfuehrungsphase (29h)
-    5)	Qualitaetsmanagement (13h)
-    6)	Einfuehrungsphase (2h)
-    7)	Dokumentation (10h)
+    4)  Realisierungsphase (29h)
+    5)	Einfuehrungsphase (2h)
+    6)	Dokumentation (10h)
 
 4.2 Teilaufgaben (mit Zeitrahmen) auflisten
 
-    zu 1)	-   Planungsphase
+    zu 1)	-   Initialisierungsphase
 -   Termin und Meilensteinplan erstellen (3h)
 
     zu 2)	-   Analysephase
@@ -33,27 +32,20 @@ Die zu erarbeitende Software wird mittels Symfony Framework in PHP entwickelt, a
     zu 3)	-   Entwurfsphase
 -   Anwendungsfalldiagramm erstellen (2h)
 -   Klassendiagramm erstellen (2h)
+-   Definition Datenbankmodell (?h)
 -   Sequenzdiagramm erstellen (2h)
 -   Entwurf der JSON Objektstruktur fuer den Datenaustausch (2h)
 -   Definition der Endpoints der Webdienste (1h)
 
-    zu 4)	-   Durchfuehrungsphase
+    zu 4)	-   Realisierungsphase
 -   Aufbau Repositorystruktur (2h)
 -   Installation Symfony mit eventuell benoetigten Zusatzmodulen (1h)
 -   Implementierung der Modelle (model) (10h)
 -   Implementierung der Steuerung (controller) (10h)
-
-    zu 5)	-   Qualitaetsmanagement
--   Erstellen von Modultests (z.B. Postman) (13h)
--   Daten (Definitionsbereich / Grenzen, Datentypen, Struktur)
--   Reaktionszeit und Skalierbarkeit (?h)
-#TODO: Zeit schaetzen!
+-   Erstellen von Modultests (13h)
 -   Codereview (?h)
-#TODO: Zeit schaetzen!
 
-    zu 6)	-   Einfuehrungsphase
--   Praesentation vorbereiten (z.B. Postman; Ablaufplan) (?h)
-#TODO: Zeit schaetzen!
+    zu 5)	-   Einfuehrungsphase
 -   Uebergabe der Software und Inbetriebnahme (2h)
 
     zu 7)	-   Dokumentation
@@ -91,7 +83,6 @@ Angestellter:                   Praktikant:
 =                               =
 3500 Euro                       560 Euro
 
-#TODO: Wert für Angestellten korrigieren? Eventuell mit anderen Vergleichen!
 #TODO: Betreuer (Codereview etc.) in die Rechnung mit einfliessen lassen!
 
 Kostenvorteil für das Unternehmen:
