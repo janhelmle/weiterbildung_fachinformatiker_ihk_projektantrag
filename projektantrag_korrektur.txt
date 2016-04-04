@@ -70,6 +70,8 @@ Software:
 -   MySQL Workbench - Datenbankwerkzeug
 -   PHP 5.6 - Skriptsprache
 -   LibreOffice - Dokumentationswerkzeug
+-   PuTTY - Terminalemulator
+-   Apache - Webserver
 -   UML Designer - Grafisches Modellierungswerkzeug
 
 -----
