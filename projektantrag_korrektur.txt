@@ -14,7 +14,7 @@ Die zu erarbeitende Software wird mittels Symfony Framework in PHP entwickelt, a
     1)	Planungsphase (3h)
     2)	Analysephase (4h)
     3)	Entwurfsphase (9h)
-    4)	Implementierungsphase (29h)
+    4)  Durchfuehrungsphase (29h)
     5)	Qualitaetsmanagement (13h)
     6)	Einfuehrungsphase (2h)
     7)	Dokumentation (10h)
@@ -37,7 +37,7 @@ Die zu erarbeitende Software wird mittels Symfony Framework in PHP entwickelt, a
 -   Entwurf der JSON Objektstruktur fuer den Datenaustausch (2h)
 -   Definition der Endpoints der Webdienste (1h)
 
-    zu 4)	-   Implementierungsphase
+    zu 4)	-   Durchfuehrungsphase
 -   Aufbau Repositorystruktur (2h)
 -   Installation Symfony mit eventuell benoetigten Zusatzmodulen (1h)
 -   Implementierung der Modelle (model) (10h)
