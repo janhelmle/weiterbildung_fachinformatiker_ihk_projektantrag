@@ -2,10 +2,10 @@
     Entwickeln einer Serversoftware zur Reservierung von Hotelzimmern
 
 2.  Kurzform der Aufgabenstellung
-    Fuer die mobile-ad-media GmbH soll im Rahmen eines Gesamtprojekts ein Softwaresystem zur Reservierung von Hotelzimmern entwickelt werden. Das System besteht aus einem zentralen Proxyserver als Backend, mit welchem sich native Apps fuer iOS und Android verbinden. Der Proxyserver wird weiterhin mit externen Datendiensten verbunden um Verfuegbarkeiten und Preise von Hotelzimmern zu erhalten sowie Reservierungsdaten weiterzureichen. 
-Im Rahmen dieses Teilprojekts soll die Serversoftware mit den Schnittstellen zum mobilen Client entwickelt werden. Grundlage der Arbeit ist ein detailliert ausgearbeiteter grafischer Entwurf, in welchem die einzelnen Screens der Apps dargestellt werden und aus welchem die noetige Kommunikation zwischen App und Proxy ermittelt werden soll (welche Information wird wann in welchem Format benoetigt).
-Die mobile App, welche separat im Rahmen des Gesamtprojekts in unserem Hause entwickelt werden soll, ermoeglicht eine Hotelzimmerreservierung und stellt die grafische Oberflaeche zur Verfuegung. Die Serversoftware uebergibt der App relevante Daten zur Darstellung (Preise, Verfuegbarkeiten etc.) und nimmt anschliessend eine Reservierungsanfrage entgegen. Nachdem der Nutzer abschliessend seinen Reservierungswunsch bestaetigt hat, wird eine E-Mail mit allen relevanten Daten an das entsprechende Hotel versendet. Eine Hotelsuche findet nicht statt, das System wird individuell an einzelne Hotels angepasst. 
-Die zu erarbeitende Software soll mittels Symfony Framework in PHP entwickelt werden, als Datenbankmanagementsystem soll MySQL zum Einsatz kommen. 
+    Fuer die mobile-ad-media GmbH wird im Rahmen eines Gesamtprojekts ein Softwaresystem zur Reservierung von Hotelzimmern entwickelt. Das System besteht aus einem zentralen Proxyserver als Backend, mit welchem sich native Apps fuer iOS und Android verbinden. Der Proxyserver wird weiterhin mit externen Datendiensten verbunden um Verfuegbarkeiten und Preise von Hotelzimmern zu erhalten sowie Reservierungsdaten weiterzureichen. 
+Im Rahmen dieses Teilprojekts wird die Serversoftware mit den Schnittstellen zum mobilen Client entwickelt. Grundlage der Arbeit ist ein detailliert ausgearbeiteter grafischer Entwurf, in welchem die einzelnen Screens der Apps dargestellt werden und aus welchem die noetige Kommunikation zwischen App und Proxy ermittelt werden soll (welche Information wird wann in welchem Format benoetigt).
+Die mobile App, welche separat im Rahmen des Gesamtprojekts in unserem Hause entwickelt werden soll, ermoeglicht eine Hotelzimmerreservierung und stellt die grafische Oberflaeche zur Verfuegung. Die Serversoftware uebergibt der App relevante Daten zur Darstellung (Preise, Verfuegbarkeiten etc.) und nimmt anschliessend eine Reservierungsanfrage entgegen. Nachdem der Nutzer abschliessend seinen Reservierungswunsch bestaetigt hat, wird eine E-Mail mit allen relevanten Reservierungsdaten an das entsprechende Hotel versendet. Eine Hotelsuche findet nicht statt, das System wird individuell an einzelne Hotels angepasst. 
+Die zu erarbeitende Software wird mittels Symfony Framework in PHP entwickelt, als Datenbankmanagementsystem kommt MySQL zum Einsatz kommen. 
 
 3.  Zielsetzung entwickeln - Was soll am Ende des Projektes erreicht werden?
     Am Ende des Projekts sollen die Schnittstellen zwischen Proxyserver und Clients als Webservice (REST) entwickelt, praezise beschrieben und funktionsfaehig sein. Der Proxyserver sollte grundlegend funktionsfaehig sein. Eine Zimmerreservierungsanfrage mit ausgehender E-Mail soll erfolgreich durchfuehrbar sein. Eine Anbindung an externe Datendienste ist nicht Bestandteil des Teilprojekts und wird im Anschluss im Rahmen des Gesamtprojekts entwickelt.
@@ -14,9 +14,9 @@ Die zu erarbeitende Software soll mittels Symfony Framework in PHP entwickelt we
     1)	Planungsphase (3h)
     2)	Analysephase (4h)
     3)	Entwurfsphase (9h)
-    4)	Durchfuehrungsphase (29h)
+    4)	Implementierungsphase (29h)
     5)	Qualitaetsmanagement (13h)
-    6)	Uebergabephase (2h)
+    6)	Einfuehrungsphase (2h)
     7)	Dokumentation (10h)
 
 4.2 Teilaufgaben (mit Zeitrahmen) auflisten
@@ -37,7 +37,7 @@ Die zu erarbeitende Software soll mittels Symfony Framework in PHP entwickelt we
 -   Entwurf der JSON Objektstruktur fuer den Datenaustausch (2h)
 -   Definition der Endpoints der Webdienste (1h)
 
-    zu 4)	-   Durchfuehrungsphase
+    zu 4)	-   Implementierungsphase
 -   Aufbau Repositorystruktur (2h)
 -   Installation Symfony mit eventuell benoetigten Zusatzmodulen (1h)
 -   Implementierung der Modelle (model) (10h)
@@ -51,7 +51,7 @@ Die zu erarbeitende Software soll mittels Symfony Framework in PHP entwickelt we
 -   Codereview (?h)
 #TODO: Zeit schaetzen!
 
-    zu 6)	-   Uebergabephase
+    zu 6)	-   Einfuehrungsphase
 -   Praesentation vorbereiten (z.B. Postman; Ablaufplan) (?h)
 #TODO: Zeit schaetzen!
 -   Uebergabe der Software und Inbetriebnahme (2h)
@@ -84,7 +84,7 @@ Ich vergleiche die Arbeitskosten eines Praktikanten
 mit denen eines Festangestellten (jeweils 70 Stunden):
 
 Angestellter:                   Praktikant:
-30 Euro/Stunde                  10 Euro/Stunde
+50 Euro/Stunde                  8 Euro/Stunde
 =                               =
 2100 Euro                       700 Euro
 
