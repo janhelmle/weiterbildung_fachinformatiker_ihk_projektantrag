@@ -2,8 +2,8 @@
     Entwickeln einer Serversoftware zur Reservierung von Hotelzimmern
 
 2.  Kurzform der Aufgabenstellung
-    Fuer die mobile-ad-media GmbH wird im Rahmen eines Gesamtprojekts ein Softwaresystem zur Reservierung von Hotelzimmern entwickelt. Das System besteht aus einem zentralen Proxyserver als Backend, mit welchem sich native Apps fuer iOS und Android verbinden. Der Proxyserver wird weiterhin mit externen Datendiensten verbunden um Verfuegbarkeiten und Preise von Hotelzimmern zu erhalten sowie Reservierungsdaten weiterzureichen. 
-Im Rahmen dieses Teilprojekts wird die Serversoftware mit den Schnittstellen zum mobilen Client entwickelt. Grundlage der Arbeit ist ein detailliert ausgearbeiteter grafischer Entwurf, in welchem die einzelnen Screens der Apps dargestellt werden und aus welchem die noetige Kommunikation zwischen App und Proxy ermittelt werden soll (welche Information wird wann in welchem Format benoetigt).
+    Fuer die mobile-ad-media GmbH wird im Rahmen eines Gesamtprojekts ein Softwaresystem zur Reservierung von Hotelzimmern entwickelt. Das System besteht aus einem zentralen Proxyserver als Backend, mit welchem sich native Apps fuer iOS und Android als Clients verbinden. Der Proxyserver wird weiterhin mit externen Datendiensten verbunden um Verfuegbarkeiten und Preise von Hotelzimmern zu erhalten sowie Reservierungsdaten weiterzureichen. 
+Im Rahmen dieses Teilprojekts wird die Serversoftware mit den Schnittstellen zum mobilen Client entwickelt. Grundlage der Arbeit ist ein detailliert ausgearbeitetes grafisches Konzept, in welchem die einzelnen Screens der Apps dargestellt werden und aus welchem die noetige Kommunikation zwischen App und Proxyserver abgeleitet werden soll (welche Information wird wann in welchem Format benoetigt).
 Die mobile App, welche separat im Rahmen des Gesamtprojekts in unserem Hause entwickelt werden soll, ermoeglicht eine Hotelzimmerreservierung und stellt die grafische Oberflaeche zur Verfuegung. Die Serversoftware uebergibt der App relevante Daten zur Darstellung (Preise, Verfuegbarkeiten etc.) und nimmt anschliessend eine Reservierungsanfrage entgegen. Nachdem der Nutzer abschliessend seinen Reservierungswunsch bestaetigt hat, wird eine E-Mail mit allen relevanten Reservierungsdaten an das entsprechende Hotel versendet. Eine Hotelsuche findet nicht statt, das System wird individuell an einzelne Hotels angepasst. 
 Die zu erarbeitende Software wird mittels Symfony Framework in PHP entwickelt, als Datenbankmanagementsystem kommt MySQL zum Einsatz kommen. 
 
@@ -75,6 +75,9 @@ Software:
 -   Netbeans 8.1 - Entwicklungsumgebung
 -   Git 2.6 - Quellcodeverwaltung
 -   Symfony 3 - PHP Framework (MVC)
+-   MySQL - Datenbankmanagementsystem
+-   MySQL Workbench - Datenbanktool
+-   PHP 5.6 - Skriptsprache
 
 -----
 
