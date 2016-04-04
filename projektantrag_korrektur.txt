@@ -11,25 +11,23 @@ Die zu erarbeitende Software wird mittels Symfony Framework in PHP entwickelt, a
     Am Ende des Projekts sollen die Schnittstellen zwischen Proxyserver und Clients als Webservice (REST) entwickelt, praezise beschrieben und funktionsfaehig sein. Der Proxyserver sollte grundlegend funktionsfaehig sein. Eine Zimmerreservierungsanfrage mit ausgehender E-Mail soll erfolgreich durchfuehrbar sein. Eine Anbindung an externe Datendienste ist nicht Bestandteil des Teilprojekts und wird im Anschluss im Rahmen des Gesamtprojekts entwickelt.
 
 4.1 Hauptaufgaben auflisten
-    1)	Initialisierung (7h)
-    2)	Analysephase (7h)
-    3)	Entwurfsphase (12h)
-    4)	Realisierungsphase (29h)
-    5)	Einfuehrungsphase (5h)
-    6)	Dokumentation (10h)
+
+    1)	Analysephase (9h)
+    2)	Entwurfsphase (12h)
+    3)	Realisierungsphase (29h)
+    4)	Einfuehrungsphase (5h)
+    5)	Dokumentation (10h)
 
 4.2 Teilaufgaben (mit Zeitrahmen) auflisten
 
-    zu 1)	-   Initialisierungsphase
--   Termin und Meilensteinplan erstellen (3h)
-
-    zu 2)	-   Analysephase
+    zu 1)	-   Analysephase
+-   Erfassung des Ist-Zustands (1h)
 -   Gegebenen grafischen Entwurf analysieren (2h)
 -   Beteiligte Entitaeten ermitteln (2h)
 -   Beziehung der Entitaeten ermitteln (2h)
 -   notwendige Kommunikation zwischen Clients (Apps) und Server (Proxy) ermitteln (2h)
 
-    zu 3)	-   Entwurfsphase
+    zu 2)	-   Entwurfsphase
 -   Anwendungsfalldiagramm erstellen (2h)
 -   Klassendiagramm erstellen (2h)
 -   Definition Datenbankmodell (?h)
@@ -37,19 +35,20 @@ Die zu erarbeitende Software wird mittels Symfony Framework in PHP entwickelt, a
 -   Entwurf der JSON Objektstruktur fuer den Datenaustausch (2h)
 -   Definition der Endpoints der Webdienste (1h)
 
-    zu 4)	-   Realisierungsphase
+    zu 3)	-   Realisierungsphase
 -   Aufbau Repositorystruktur (2h)
 -   Installation Symfony mit eventuell benoetigten Zusatzmodulen (1h)
 -   Implementierung der Modelle (model) (10h)
 -   Implementierung der Steuerung (controller) (10h)
 -   Erstellen von Modultests (13h)
+-   Fehlerbehebung (?h)
 -   Codereview (?h)
 
-    zu 5)	-   Einfuehrungsphase
+    zu 4)	-   Einfuehrungsphase
 -   Uebergabe der Software und Inbetriebnahme (2h)
 
-    zu 7)	-   Dokumentation
--   Erstellen der Dokumentation (10h)
+    zu 5)	-   Dokumentation
+-   Erstellen der Projektdokumentation (10h)
 
 ---------------------------------------------------------------------
 
@@ -68,8 +67,10 @@ Software:
 -   Git 2.6 - Quellcodeverwaltung
 -   Symfony 3 - PHP Framework (MVC)
 -   MySQL - Datenbankmanagementsystem
--   MySQL Workbench - Datenbanktool
+-   MySQL Workbench - Datenbankwerkzeug
 -   PHP 5.6 - Skriptsprache
+-   LibreOffice - Dokumentationswerkzeug
+-   UML Designer - Grafisches Modellierungswerkzeug
 
 -----
 
