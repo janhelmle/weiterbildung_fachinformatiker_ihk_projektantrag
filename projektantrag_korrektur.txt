@@ -79,18 +79,18 @@ Software:
 
 Vorläufige Kosten-Nutzen-Analyse:
 
-Ich vergleiche die Arbeitskosten eines Praktikanten
-mit denen eines Festangestellten (jeweils 70 Stunden):
+Die Projektdurchfuehrung kann entweder durch einen Praktikanten oder durch einen festangestellten Softwareentwickler erfolgen. Da die verwendete Software nahezu ausschliesslich kostenfrei zur verfuegung steht (Open-Source) fallen hierbei keine zusaetzlichen Aufwendungen an. 
+Ich vergleiche daher die Personalkosten eines Praktikanten (10 Euro pro Stunde) mit denen eines Festangestellten (50 Euro pro Stunde) unter der Annahme dass ein festangestellter Entwickler nur 80% der Zeit benoetigt, das Teilprojekt somit in 56 Stunden durchfuehrt:
 
 Angestellter:			Praktikant:
-50 Euro/Stunde			8 Euro/Stunde
+50 Euro/Stunde			10 Euro/Stunde
 =				=
-3500 Euro			560 Euro
+2800 Euro			700 Euro
 
-Entwicklungskostenvorteil für das Unternehmen:
-2940 Euro
+Es ergibt sich somit ein Entwicklungskostenvorteil für das Unternehmen von
+2100 Euro.
 
-
+Das Unternehmen erwartet den Verkauf von 10 Apps pro Monat zu einem Preis von jeweils 50 Euro an einzelne Hotels. Dadurch wird ein Umsatz von 6000 Euro erzielt.
 
 -----
 
