@@ -13,39 +13,39 @@ Die zu erarbeitende Software wird mittels Symfony Framework in PHP entwickelt, a
 
 4.1 Hauptaufgaben auflisten
 
-    1)	Analysephase (10h)
-    2)	Entwurfsphase (16h)
-    3)	Realisierungsphase (32h)
-    4)	Qualitaetsmanagement (10h)
+    1)	Analysephase (8h)
+    2)	Entwurfsphase (11h)
+    3)	Realisierungsphase (30h)
+    4)	Qualitaetsmanagement (9h)
     5)	Einfuehrungsphase (2h)
     6)	Dokumentation (10h)
 
 4.2 Teilaufgaben (mit Zeitrahmen) auflisten
 
-    zu 1)	-   Analysephase (10h)
+    zu 1)	-   Analysephase (8h)
 -   Grafischen Entwurf analysieren (2h)
--   Beteiligte Entitaeten ermitteln (3h)
--   Beziehung der Entitaeten ermitteln (3h)
+-   Beteiligte Entitaeten ermitteln (2h)
+-   Beziehung der Entitaeten ermitteln (2h)
 -   notwendige http Kommunikation zwischen Clients (Apps) und Server (Proxy) analysieren (2h)
 
-    zu 2)	-   Entwurfsphase (16h)
--   Erstellung des Projektablaufs (3h)
--   Erstellung von UML Diagrammen (4h)
--   Entwurf des Datenbankmodells (3h)
--   Entwurf der JSON Objektstruktur fuer den Datenaustausch (3h)
+    zu 2)	-   Entwurfsphase (11h)
+-   Erstellung des Projektablaufs (2h)
+-   Erstellung von UML Diagrammen (2h)
+-   Entwurf des Datenbankmodells (2h)
+-   Entwurf der JSON Objektstruktur fuer den Datenaustausch (2h)
 -   Definition der Endpoints der Webdienste (1h)
 -   Definition QS - Massnahmen (2h)
 
-    zu 3)	-   Realisierungsphase (32h)
+    zu 3)	-   Realisierungsphase (30h)
 -   Aufbau Repositorystruktur (1h)
 -   Installation Symfony mit eventuell benoetigten Zusatzmodulen (1h)
--   Implementierung der Modelle (model) (10h)
--   Implementierung der Steuerung (controller) (10h)
+-   Implementierung der Modelle (model) (14h)
+-   Implementierung der Steuerung (controller) (14h)
 
-    zu 4)	-   Qualitaetsmanagement (10h)
--   Erstellen von Modultests (4h)
--   Fehlerbehebung (2h)
--   Codereview (4h) 
+    zu 4)	-   Qualitaetsmanagement (9h)
+-   Erstellen von Modultests (3h)
+-   Fehlerbehebung (3h)
+-   Codereview (3h) 
 
     zu 5)	-   Einfuehrungsphase (2h)
 -   Uebergabe der Software und Inbetriebnahme (2h)
