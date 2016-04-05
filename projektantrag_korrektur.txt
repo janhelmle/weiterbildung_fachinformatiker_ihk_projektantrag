@@ -77,7 +77,7 @@ Software:
 
 -----
 
-Vorläufige Kosten-Nutzen-Analyse
+Vorläufige Kosten-Nutzen-Analyse:
 
 Ich vergleiche die Arbeitskosten eines Praktikanten
 mit denen eines Festangestellten (jeweils 70 Stunden):
@@ -87,10 +87,10 @@ Angestellter:			Praktikant:
 =				=
 3500 Euro			560 Euro
 
-#TODO: Betreuer (Codereview etc.) in die Rechnung mit einfliessen lassen!
-
-Kostenvorteil für das Unternehmen:
+Entwicklungskostenvorteil für das Unternehmen:
 2940 Euro
+
+
 
 -----
 
