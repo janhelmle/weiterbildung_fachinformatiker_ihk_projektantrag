@@ -3,51 +3,54 @@
 
 2.  Kurzform der Aufgabenstellung
     Fuer die mobile-ad-media GmbH wird im Rahmen eines Gesamtprojekts ein Softwaresystem zur Reservierung von Hotelzimmern entwickelt. Das System besteht aus einem zentralen Proxyserver als Backend, mit welchem sich native Apps fuer iOS und Android als Clients verbinden. Der Proxyserver wird weiterhin mit externen Datendiensten verbunden um dynamisch Verfuegbarkeiten und Preise von Hotelzimmern zu erhalten sowie Reservierungsdaten weiterzureichen. 
-Im Rahmen dieses Teilprojekts wird die Serversoftware mit den Schnittstellen zum mobilen Client entwickelt. Grundlage der Arbeit des Teilprojekts ist ein detailliert ausgearbeitetes grafisches Konzept, in welchem die einzelnen Screens der Apps dargestellt werden und aus welchem die noetige Kommunikation zwischen App und Proxyserver abgeleitet werden soll (welche Information wird wann in welchem Format benoetigt).
+Im Rahmen dieses Teilprojekts, fuer welches ich verantwortlich bin wird die Serversoftware mit den Schnittstellen zum mobilen Client entwickelt. Grundlage der Arbeit des Teilprojekts ist ein detailliert ausgearbeitetes grafisches Konzept, in welchem die einzelnen Screens der Apps dargestellt werden und aus welchem die noetige Kommunikation zwischen App und Proxyserver abgeleitet werden soll (welche Information wird wann in welchem Format benoetigt).
 Die mobile App, welche separat im Rahmen des Gesamtprojekts in unserem Hause entwickelt wird, ermoeglicht dem Nutzer eine Hotelzimmerreservierung durchzufuehren und stellt die grafische Oberflaeche zur Verfuegung. Die Serversoftware uebergibt der App relevante Daten zur Darstellung (Preise, Verfuegbarkeiten etc.) und nimmt anschliessend eine Reservierungsanfrage entgegen. Nachdem der Nutzer abschliessend seinen Reservierungswunsch bestaetigt hat, wird eine E-Mail mit allen relevanten Reservierungsdaten an das entsprechende Hotel versendet. Eine Hotelsuche findet nicht statt, das System wird individuell an einzelne Hotels angepasst. 
 Die zu erarbeitende Software wird mittels Symfony Framework in PHP entwickelt, als Datenbankmanagementsystem kommt MySQL zum Einsatz. 
 
 3.  Zielsetzung entwickeln - Was soll am Ende des Projektes erreicht werden?
-    Am Ende des Projekts sollen die Schnittstellen zwischen Proxyserver und Clients als Webservice (REST) entwickelt, praezise beschrieben und funktionsfaehig sein. Der Proxyserver sollte grundlegend funktionsfaehig sein. Eine Zimmerreservierungsanfrage mit ausgehender E-Mail soll erfolgreich durchfuehrbar sein. Eine Anbindung an externe Datendienste ist nicht Bestandteil des Teilprojekts und wird im Anschluss im Rahmen des Gesamtprojekts entwickelt.
+    Am Ende des Gesamtprojekts soll eine funktionierende App entwickelt sein, sowie die Anbindung via Proxyserver an die externen Datendienste.
+    Am Ende des Teilprojekts sollen die Schnittstellen zwischen Proxyserver und Clients als Webservice (REST) entwickelt, praezise beschrieben und funktionsfaehig sein. Eine Zimmerreservierungsanfrage mit ausgehender E-Mail soll erfolgreich durchfuehrbar sein. Eine Anbindung an externe Datendienste sowie die Progammierung der App als Client ist nicht Bestandteil des Teilprojekts und wird im Anschluss im Rahmen des Gesamtprojekts durchgefuehrt.
 
 4.1 Hauptaufgaben auflisten
 
-    1)	Analysephase (12h)
+    1)	Analysephase (10h)
     2)	Entwurfsphase (16h)
-    3)	Realisierungsphase (28h)
-    4)	Einfuehrungsphase (4h)
-    5)	Dokumentation (10h)
+    3)	Realisierungsphase (32h)
+    4)	Qualitaetsmanagement (10h)
+    5)	Einfuehrungsphase (2h)
+    6)	Dokumentation (10h)
 
 4.2 Teilaufgaben (mit Zeitrahmen) auflisten
 
-    zu 1)	-   Analysephase (12h)
--   Erfassung des Ist-Zustands (2h)
--   Gegebenen grafischen Entwurf analysieren (2h)
+    zu 1)	-   Analysephase (10h)
+-   Grafischen Entwurf analysieren (2h)
 -   Beteiligte Entitaeten ermitteln (3h)
 -   Beziehung der Entitaeten ermitteln (3h)
--   notwendige Kommunikation zwischen Clients (Apps) und Server (Proxy) ermitteln (2h)
+-   notwendige http Kommunikation zwischen Clients (Apps) und Server (Proxy) analysieren (2h)
 
     zu 2)	-   Entwurfsphase (16h)
--   Anwendungsfalldiagramm erstellen (3h)
--   Klassendiagramm erstellen (3h)
--   Sequenzdiagramm erstellen (3h)
--   Definition Datenbankmodell (3h)
+-   Erstellung des Projektablaufs (3h)
+-   Erstellung von UML Diagrammen (4h)
+-   Entwurf des Datenbankmodells (3h)
 -   Entwurf der JSON Objektstruktur fuer den Datenaustausch (3h)
 -   Definition der Endpoints der Webdienste (1h)
+-   Definition QS - Massnahmen (2h)
 
-    zu 3)	-   Realisierungsphase (28h)
+    zu 3)	-   Realisierungsphase (32h)
 -   Aufbau Repositorystruktur (1h)
 -   Installation Symfony mit eventuell benoetigten Zusatzmodulen (1h)
--   Implementierung der Modelle (model) (8h)
--   Implementierung der Steuerung (controller) (8h)
+-   Implementierung der Modelle (model) (10h)
+-   Implementierung der Steuerung (controller) (10h)
+
+    zu 4)	-   Qualitaetsmanagement (10h)
 -   Erstellen von Modultests (4h)
 -   Fehlerbehebung (2h)
--   Codereview (4h)
+-   Codereview (4h) 
 
-    zu 4)	-   Einfuehrungsphase (4h)
--   Uebergabe der Software und Inbetriebnahme (4h)
+    zu 5)	-   Einfuehrungsphase (2h)
+-   Uebergabe der Software und Inbetriebnahme (2h)
 
-    zu 5)	-   Dokumentation (10h)
+    zu 6)	-   Dokumentation (10h)
 -   Erstellen der Projektdokumentation (10h)
 
 ---------------------------------------------------------------------
