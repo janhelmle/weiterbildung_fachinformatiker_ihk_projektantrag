@@ -1,0 +1,32 @@
+											Berlin, 19.04.2016
+Zu Beachtende Hinweise bei Umsetzung und Dokumentation			
+
+8 Punkte der Antragsablehnung:
+
+1.	Projektphasen
+2.	Fehlende Ressourcen und Kostenplanung
+3.	Wozu "Mockup" analysieren wenn Webservice ?
+4.	Testseite in 70h abgrenzen (Umfang zu hoch)
+5.	Qualitätssicherung ?
+6.	3h Test ?
+7.	Wie Planen Sie vorab Test ?
+8.	Kriterien für Qualität ? Sicherstellen das es passt ?
+
+Zu 5. Qualitätssicherung
+-	Definition Testdaten (Szenario) für zu Implementierende Modultests
+-	Definitionsbereich 0.01 – 9999.99
+-	Definitionstyp (int, float -> php)
+
+Zu 6. Modultest
+-	% zum Gesamtaufwand
+-	z.B. 25% vom Gesamtaufwand (Gartner, 10% - 35%)
+	daraus ergibt sich (meine Enpfehlung)
+-	Codereview wird von Projektleiter (Friedemar) übernommen -> kein Zeitaufwand für Jan
+-	Modultest 3h + 3h -> 6h (ca 22%)
+
+Zu 7. Planung der Tests!
+-	Punkt 2 -> Definition Qualitätssicherung
+-	Massnahmen -> welche genau? (Siehe 5) etwas mehr schreiben !
+
+Zu 8. Was sind Kriterien der QS ? (Hausaufgaben bis Dienstag 26.4.)
+
